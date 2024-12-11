@@ -1,0 +1,845 @@
+report:
+  runs:
+    b8532710:
+      interactions:
+        interaction_0:
+          treatment_name: add_security_context
+          treatment_start: 2024-12-02 20:39:31.335390
+          treatment_end: 2024-12-02 20:41:31.829310
+          treatment_type: KubernetesApplySecurityContextTreatment
+          response_name: frontend_traces.duration
+          response_start: 2024-12-02 20:39:21.509341
+          response_end: 2024-12-02 20:41:41.829318
+          response_type: TraceResponseVariable
+          p_value: nan
+          test_statistic: nan
+          test_performed: welch t-test
+          store_key: /opt/oxn/experiments/package-loss-20-short.yml/b8532710/frontend_traces
+        interaction_1:
+          treatment_name: package_lost_treatment
+          treatment_start: 2024-12-02 20:39:31.522230
+          treatment_end: 2024-12-02 20:41:31.829162
+          treatment_type: KubernetesNetworkPacketLossTreatment
+          response_name: frontend_traces.duration
+          response_start: 2024-12-02 20:39:21.509341
+          response_end: 2024-12-02 20:41:41.829318
+          response_type: TraceResponseVariable
+          p_value: nan
+          test_statistic: nan
+          test_performed: welch t-test
+          store_key: /opt/oxn/experiments/package-loss-20-short.yml/b8532710/frontend_traces
+        interaction_2:
+          treatment_name: add_security_context
+          treatment_start: 2024-12-02 20:39:31.335390
+          treatment_end: 2024-12-02 20:41:31.829310
+          treatment_type: KubernetesApplySecurityContextTreatment
+          response_name: system_CPU
+          response_start: 2024-12-02 20:39:21.509341
+          response_end: 2024-12-02 20:41:41.829318
+          response_type: MetricResponseVariable
+          p_value: '0.00017947033692652207'
+          test_statistic: '4.333669501077837'
+          test_performed: welch t-test
+          store_key: /opt/oxn/experiments/package-loss-20-short.yml/b8532710/system_CPU
+        interaction_3:
+          treatment_name: package_lost_treatment
+          treatment_start: 2024-12-02 20:39:31.522230
+          treatment_end: 2024-12-02 20:41:31.829162
+          treatment_type: KubernetesNetworkPacketLossTreatment
+          response_name: system_CPU
+          response_start: 2024-12-02 20:39:21.509341
+          response_end: 2024-12-02 20:41:41.829318
+          response_type: MetricResponseVariable
+          p_value: '5.8219329874503506e-05'
+          test_statistic: '4.699436181650132'
+          test_performed: welch t-test
+          store_key: /opt/oxn/experiments/package-loss-20-short.yml/b8532710/system_CPU
+        interaction_4:
+          treatment_name: add_security_context
+          treatment_start: 2024-12-02 20:39:31.335390
+          treatment_end: 2024-12-02 20:41:31.829310
+          treatment_type: KubernetesApplySecurityContextTreatment
+          response_name: recommendation_deployment_CPU
+          response_start: 2024-12-02 20:39:21.509341
+          response_end: 2024-12-02 20:41:41.829318
+          response_type: MetricResponseVariable
+          p_value: '0.005793595733980001'
+          test_statistic: '2.9555935777411184'
+          test_performed: welch t-test
+          store_key: /opt/oxn/experiments/package-loss-20-short.yml/b8532710/recommendation_deployment_CPU
+        interaction_5:
+          treatment_name: package_lost_treatment
+          treatment_start: 2024-12-02 20:39:31.522230
+          treatment_end: 2024-12-02 20:41:31.829162
+          treatment_type: KubernetesNetworkPacketLossTreatment
+          response_name: recommendation_deployment_CPU
+          response_start: 2024-12-02 20:39:21.509341
+          response_end: 2024-12-02 20:41:41.829318
+          response_type: MetricResponseVariable
+          p_value: '0.002522703374683248'
+          test_statistic: '3.255720068647222'
+          test_performed: welch t-test
+          store_key: /opt/oxn/experiments/package-loss-20-short.yml/b8532710/recommendation_deployment_CPU
+        interaction_6:
+          treatment_name: add_security_context
+          treatment_start: 2024-12-02 20:39:31.335390
+          treatment_end: 2024-12-02 20:41:31.829310
+          treatment_type: KubernetesApplySecurityContextTreatment
+          response_name: frontend_http_latency
+          response_start: 2024-12-02 20:39:21.509341
+          response_end: 2024-12-02 20:41:41.829318
+          response_type: MetricResponseVariable
+          p_value: '1.0916571665726632e-33'
+          test_statistic: '15.056732375832055'
+          test_performed: welch t-test
+          store_key: /opt/oxn/experiments/package-loss-20-short.yml/b8532710/frontend_http_latency
+        interaction_7:
+          treatment_name: package_lost_treatment
+          treatment_start: 2024-12-02 20:39:31.522230
+          treatment_end: 2024-12-02 20:41:31.829162
+          treatment_type: KubernetesNetworkPacketLossTreatment
+          response_name: frontend_http_latency
+          response_start: 2024-12-02 20:39:21.509341
+          response_end: 2024-12-02 20:41:41.829318
+          response_type: MetricResponseVariable
+          p_value: '8.753435303173754e-34'
+          test_statistic: '15.109453791357817'
+          test_performed: welch t-test
+          store_key: /opt/oxn/experiments/package-loss-20-short.yml/b8532710/frontend_http_latency
+        interaction_8:
+          treatment_name: add_security_context
+          treatment_start: 2024-12-02 20:39:31.335390
+          treatment_end: 2024-12-02 20:41:31.829310
+          treatment_type: KubernetesApplySecurityContextTreatment
+          response_name: cart_service_latency
+          response_start: 2024-12-02 20:39:21.509341
+          response_end: 2024-12-02 20:41:41.829318
+          response_type: MetricResponseVariable
+          p_value: nan
+          test_statistic: nan
+          test_performed: welch t-test
+          store_key: /opt/oxn/experiments/package-loss-20-short.yml/b8532710/cart_service_latency
+        interaction_9:
+          treatment_name: package_lost_treatment
+          treatment_start: 2024-12-02 20:39:31.522230
+          treatment_end: 2024-12-02 20:41:31.829162
+          treatment_type: KubernetesNetworkPacketLossTreatment
+          response_name: cart_service_latency
+          response_start: 2024-12-02 20:39:21.509341
+          response_end: 2024-12-02 20:41:41.829318
+          response_type: MetricResponseVariable
+          p_value: nan
+          test_statistic: nan
+          test_performed: welch t-test
+          store_key: /opt/oxn/experiments/package-loss-20-short.yml/b8532710/cart_service_latency
+        interaction_10:
+          treatment_name: add_security_context
+          treatment_start: 2024-12-02 20:39:31.335390
+          treatment_end: 2024-12-02 20:41:31.829310
+          treatment_type: KubernetesApplySecurityContextTreatment
+          response_name: product_catalog_latency
+          response_start: 2024-12-02 20:39:21.509341
+          response_end: 2024-12-02 20:41:41.829318
+          response_type: MetricResponseVariable
+          p_value: '0.07246961038203148'
+          test_statistic: '1.8760373131536556'
+          test_performed: welch t-test
+          store_key: /opt/oxn/experiments/package-loss-20-short.yml/b8532710/product_catalog_latency
+        interaction_11:
+          treatment_name: package_lost_treatment
+          treatment_start: 2024-12-02 20:39:31.522230
+          treatment_end: 2024-12-02 20:41:31.829162
+          treatment_type: KubernetesNetworkPacketLossTreatment
+          response_name: product_catalog_latency
+          response_start: 2024-12-02 20:39:21.509341
+          response_end: 2024-12-02 20:41:41.829318
+          response_type: MetricResponseVariable
+          p_value: '0.07246961038203148'
+          test_statistic: '1.8760373131536556'
+          test_performed: welch t-test
+          store_key: /opt/oxn/experiments/package-loss-20-short.yml/b8532710/product_catalog_latency
+        interaction_12:
+          treatment_name: add_security_context
+          treatment_start: 2024-12-02 20:39:31.335390
+          treatment_end: 2024-12-02 20:41:31.829310
+          treatment_type: KubernetesApplySecurityContextTreatment
+          response_name: pod_status
+          response_start: 2024-12-02 20:39:21.509341
+          response_end: 2024-12-02 20:41:41.829318
+          response_type: MetricResponseVariable
+          p_value: '1.0'
+          test_statistic: '0.0'
+          test_performed: welch t-test
+          store_key: /opt/oxn/experiments/package-loss-20-short.yml/b8532710/pod_status
+        interaction_13:
+          treatment_name: package_lost_treatment
+          treatment_start: 2024-12-02 20:39:31.522230
+          treatment_end: 2024-12-02 20:41:31.829162
+          treatment_type: KubernetesNetworkPacketLossTreatment
+          response_name: pod_status
+          response_start: 2024-12-02 20:39:21.509341
+          response_end: 2024-12-02 20:41:41.829318
+          response_type: MetricResponseVariable
+          p_value: '1.0'
+          test_statistic: '0.0'
+          test_performed: welch t-test
+          store_key: /opt/oxn/experiments/package-loss-20-short.yml/b8532710/pod_status
+        interaction_14:
+          treatment_name: add_security_context
+          treatment_start: 2024-12-02 20:39:31.335390
+          treatment_end: 2024-12-02 20:41:31.829310
+          treatment_type: KubernetesApplySecurityContextTreatment
+          response_name: pod_restarts
+          response_start: 2024-12-02 20:39:21.509341
+          response_end: 2024-12-02 20:41:41.829318
+          response_type: MetricResponseVariable
+          p_value: '0.002665158551967092'
+          test_statistic: '-3.4026366035848388'
+          test_performed: welch t-test
+          store_key: /opt/oxn/experiments/package-loss-20-short.yml/b8532710/pod_restarts
+        interaction_15:
+          treatment_name: package_lost_treatment
+          treatment_start: 2024-12-02 20:39:31.522230
+          treatment_end: 2024-12-02 20:41:31.829162
+          treatment_type: KubernetesNetworkPacketLossTreatment
+          response_name: pod_restarts
+          response_start: 2024-12-02 20:39:21.509341
+          response_end: 2024-12-02 20:41:41.829318
+          response_type: MetricResponseVariable
+          p_value: '0.0034122364259051496'
+          test_statistic: '-3.2741073176991367'
+          test_performed: welch t-test
+          store_key: /opt/oxn/experiments/package-loss-20-short.yml/b8532710/pod_restarts
+        interaction_16:
+          treatment_name: add_security_context
+          treatment_start: 2024-12-02 20:39:31.335390
+          treatment_end: 2024-12-02 20:41:31.829310
+          treatment_type: KubernetesApplySecurityContextTreatment
+          response_name: terminated_pods
+          response_start: 2024-12-02 20:39:21.509341
+          response_end: 2024-12-02 20:41:41.829318
+          response_type: MetricResponseVariable
+          p_value: '0.01778933928143003'
+          test_statistic: '2.403077910851163'
+          test_performed: welch t-test
+          store_key: /opt/oxn/experiments/package-loss-20-short.yml/b8532710/terminated_pods
+        interaction_17:
+          treatment_name: package_lost_treatment
+          treatment_start: 2024-12-02 20:39:31.522230
+          treatment_end: 2024-12-02 20:41:31.829162
+          treatment_type: KubernetesNetworkPacketLossTreatment
+          response_name: terminated_pods
+          response_start: 2024-12-02 20:39:21.509341
+          response_end: 2024-12-02 20:41:41.829318
+          response_type: MetricResponseVariable
+          p_value: '0.01778393514516294'
+          test_statistic: '2.4034764465511644'
+          test_performed: welch t-test
+          store_key: /opt/oxn/experiments/package-loss-20-short.yml/b8532710/terminated_pods
+        interaction_18:
+          treatment_name: add_security_context
+          treatment_start: 2024-12-02 20:39:31.335390
+          treatment_end: 2024-12-02 20:41:31.829310
+          treatment_type: KubernetesApplySecurityContextTreatment
+          response_name: failed_spans
+          response_start: 2024-12-02 20:39:21.509341
+          response_end: 2024-12-02 20:41:41.829318
+          response_type: MetricResponseVariable
+          p_value: nan
+          test_statistic: nan
+          test_performed: welch t-test
+          store_key: /opt/oxn/experiments/package-loss-20-short.yml/b8532710/failed_spans
+        interaction_19:
+          treatment_name: package_lost_treatment
+          treatment_start: 2024-12-02 20:39:31.522230
+          treatment_end: 2024-12-02 20:41:31.829162
+          treatment_type: KubernetesNetworkPacketLossTreatment
+          response_name: failed_spans
+          response_start: 2024-12-02 20:39:21.509341
+          response_end: 2024-12-02 20:41:41.829318
+          response_type: MetricResponseVariable
+          p_value: nan
+          test_statistic: nan
+          test_performed: welch t-test
+          store_key: /opt/oxn/experiments/package-loss-20-short.yml/b8532710/failed_spans
+        interaction_20:
+          treatment_name: add_security_context
+          treatment_start: 2024-12-02 20:39:31.335390
+          treatment_end: 2024-12-02 20:41:31.829310
+          treatment_type: KubernetesApplySecurityContextTreatment
+          response_name: network_bytes
+          response_start: 2024-12-02 20:39:21.509341
+          response_end: 2024-12-02 20:41:41.829318
+          response_type: MetricResponseVariable
+          p_value: '0.08474835543930173'
+          test_statistic: '1.8042413513281013'
+          test_performed: welch t-test
+          store_key: /opt/oxn/experiments/package-loss-20-short.yml/b8532710/network_bytes
+        interaction_21:
+          treatment_name: package_lost_treatment
+          treatment_start: 2024-12-02 20:39:31.522230
+          treatment_end: 2024-12-02 20:41:31.829162
+          treatment_type: KubernetesNetworkPacketLossTreatment
+          response_name: network_bytes
+          response_start: 2024-12-02 20:39:21.509341
+          response_end: 2024-12-02 20:41:41.829318
+          response_type: MetricResponseVariable
+          p_value: '0.0460057693067167'
+          test_statistic: '2.106529464747623'
+          test_performed: welch t-test
+          store_key: /opt/oxn/experiments/package-loss-20-short.yml/b8532710/network_bytes
+        interaction_22:
+          treatment_name: add_security_context
+          treatment_start: 2024-12-02 20:39:31.335390
+          treatment_end: 2024-12-02 20:41:31.829310
+          treatment_type: KubernetesApplySecurityContextTreatment
+          response_name: network_drops
+          response_start: 2024-12-02 20:39:21.509341
+          response_end: 2024-12-02 20:41:41.829318
+          response_type: MetricResponseVariable
+          p_value: nan
+          test_statistic: nan
+          test_performed: welch t-test
+          store_key: /opt/oxn/experiments/package-loss-20-short.yml/b8532710/network_drops
+        interaction_23:
+          treatment_name: package_lost_treatment
+          treatment_start: 2024-12-02 20:39:31.522230
+          treatment_end: 2024-12-02 20:41:31.829162
+          treatment_type: KubernetesNetworkPacketLossTreatment
+          response_name: network_drops
+          response_start: 2024-12-02 20:39:21.509341
+          response_end: 2024-12-02 20:41:41.829318
+          response_type: MetricResponseVariable
+          p_value: nan
+          test_statistic: nan
+          test_performed: welch t-test
+          store_key: /opt/oxn/experiments/package-loss-20-short.yml/b8532710/network_drops
+        interaction_24:
+          treatment_name: add_security_context
+          treatment_start: 2024-12-02 20:39:31.335390
+          treatment_end: 2024-12-02 20:41:31.829310
+          treatment_type: KubernetesApplySecurityContextTreatment
+          response_name: network_errors
+          response_start: 2024-12-02 20:39:21.509341
+          response_end: 2024-12-02 20:41:41.829318
+          response_type: MetricResponseVariable
+          p_value: nan
+          test_statistic: nan
+          test_performed: welch t-test
+          store_key: /opt/oxn/experiments/package-loss-20-short.yml/b8532710/network_errors
+        interaction_25:
+          treatment_name: package_lost_treatment
+          treatment_start: 2024-12-02 20:39:31.522230
+          treatment_end: 2024-12-02 20:41:31.829162
+          treatment_type: KubernetesNetworkPacketLossTreatment
+          response_name: network_errors
+          response_start: 2024-12-02 20:39:21.509341
+          response_end: 2024-12-02 20:41:41.829318
+          response_type: MetricResponseVariable
+          p_value: nan
+          test_statistic: nan
+          test_performed: welch t-test
+          store_key: /opt/oxn/experiments/package-loss-20-short.yml/b8532710/network_errors
+        interaction_26:
+          treatment_name: add_security_context
+          treatment_start: 2024-12-02 20:39:31.335390
+          treatment_end: 2024-12-02 20:41:31.829310
+          treatment_type: KubernetesApplySecurityContextTreatment
+          response_name: tcp_retransmissions
+          response_start: 2024-12-02 20:39:21.509341
+          response_end: 2024-12-02 20:41:41.829318
+          response_type: MetricResponseVariable
+          p_value: '8.353777952176496e-07'
+          test_statistic: '-5.163601298213695'
+          test_performed: welch t-test
+          store_key: /opt/oxn/experiments/package-loss-20-short.yml/b8532710/tcp_retransmissions
+        interaction_27:
+          treatment_name: package_lost_treatment
+          treatment_start: 2024-12-02 20:39:31.522230
+          treatment_end: 2024-12-02 20:41:31.829162
+          treatment_type: KubernetesNetworkPacketLossTreatment
+          response_name: tcp_retransmissions
+          response_start: 2024-12-02 20:39:21.509341
+          response_end: 2024-12-02 20:41:41.829318
+          response_type: MetricResponseVariable
+          p_value: '5.758614911349018e-07'
+          test_statistic: '-5.243359892903332'
+          test_performed: welch t-test
+          store_key: /opt/oxn/experiments/package-loss-20-short.yml/b8532710/tcp_retransmissions
+        interaction_28:
+          treatment_name: add_security_context
+          treatment_start: 2024-12-02 20:39:31.335390
+          treatment_end: 2024-12-02 20:41:31.829310
+          treatment_type: KubernetesApplySecurityContextTreatment
+          response_name: tcp_udp_errors
+          response_start: 2024-12-02 20:39:21.509341
+          response_end: 2024-12-02 20:41:41.829318
+          response_type: MetricResponseVariable
+          p_value: nan
+          test_statistic: nan
+          test_performed: welch t-test
+          store_key: /opt/oxn/experiments/package-loss-20-short.yml/b8532710/tcp_udp_errors
+        interaction_29:
+          treatment_name: package_lost_treatment
+          treatment_start: 2024-12-02 20:39:31.522230
+          treatment_end: 2024-12-02 20:41:31.829162
+          treatment_type: KubernetesNetworkPacketLossTreatment
+          response_name: tcp_udp_errors
+          response_start: 2024-12-02 20:39:21.509341
+          response_end: 2024-12-02 20:41:41.829318
+          response_type: MetricResponseVariable
+          p_value: nan
+          test_statistic: nan
+          test_performed: welch t-test
+          store_key: /opt/oxn/experiments/package-loss-20-short.yml/b8532710/tcp_udp_errors
+        interaction_30:
+          treatment_name: add_security_context
+          treatment_start: 2024-12-02 20:39:31.335390
+          treatment_end: 2024-12-02 20:41:31.829310
+          treatment_type: KubernetesApplySecurityContextTreatment
+          response_name: node_load
+          response_start: 2024-12-02 20:39:21.509341
+          response_end: 2024-12-02 20:41:41.829318
+          response_type: MetricResponseVariable
+          p_value: '0.9714183231949278'
+          test_statistic: '-0.036233474168592766'
+          test_performed: welch t-test
+          store_key: /opt/oxn/experiments/package-loss-20-short.yml/b8532710/node_load
+        interaction_31:
+          treatment_name: package_lost_treatment
+          treatment_start: 2024-12-02 20:39:31.522230
+          treatment_end: 2024-12-02 20:41:31.829162
+          treatment_type: KubernetesNetworkPacketLossTreatment
+          response_name: node_load
+          response_start: 2024-12-02 20:39:21.509341
+          response_end: 2024-12-02 20:41:41.829318
+          response_type: MetricResponseVariable
+          p_value: '0.8404519981710804'
+          test_statistic: '0.20353874861974072'
+          test_performed: welch t-test
+          store_key: /opt/oxn/experiments/package-loss-20-short.yml/b8532710/node_load
+        interaction_32:
+          treatment_name: add_security_context
+          treatment_start: 2024-12-02 20:39:31.335390
+          treatment_end: 2024-12-02 20:41:31.829310
+          treatment_type: KubernetesApplySecurityContextTreatment
+          response_name: memory_available
+          response_start: 2024-12-02 20:39:21.509341
+          response_end: 2024-12-02 20:41:41.829318
+          response_type: MetricResponseVariable
+          p_value: '0.0031536271864377055'
+          test_statistic: '-3.3188021190731063'
+          test_performed: welch t-test
+          store_key: /opt/oxn/experiments/package-loss-20-short.yml/b8532710/memory_available
+        interaction_33:
+          treatment_name: package_lost_treatment
+          treatment_start: 2024-12-02 20:39:31.522230
+          treatment_end: 2024-12-02 20:41:31.829162
+          treatment_type: KubernetesNetworkPacketLossTreatment
+          response_name: memory_available
+          response_start: 2024-12-02 20:39:21.509341
+          response_end: 2024-12-02 20:41:41.829318
+          response_type: MetricResponseVariable
+          p_value: '0.003976325039342397'
+          test_statistic: '-3.198425673863119'
+          test_performed: welch t-test
+          store_key: /opt/oxn/experiments/package-loss-20-short.yml/b8532710/memory_available
+        interaction_34:
+          treatment_name: add_security_context
+          treatment_start: 2024-12-02 20:39:31.335390
+          treatment_end: 2024-12-02 20:41:31.829310
+          treatment_type: KubernetesApplySecurityContextTreatment
+          response_name: cpu_usage
+          response_start: 2024-12-02 20:39:21.509341
+          response_end: 2024-12-02 20:41:41.829318
+          response_type: MetricResponseVariable
+          p_value: '0.19730240239164254'
+          test_statistic: '1.328896538162905'
+          test_performed: welch t-test
+          store_key: /opt/oxn/experiments/package-loss-20-short.yml/b8532710/cpu_usage
+        interaction_35:
+          treatment_name: package_lost_treatment
+          treatment_start: 2024-12-02 20:39:31.522230
+          treatment_end: 2024-12-02 20:41:31.829162
+          treatment_type: KubernetesNetworkPacketLossTreatment
+          response_name: cpu_usage
+          response_start: 2024-12-02 20:39:21.509341
+          response_end: 2024-12-02 20:41:41.829318
+          response_type: MetricResponseVariable
+          p_value: '0.11986615142529645'
+          test_statistic: '1.6136269799810559'
+          test_performed: welch t-test
+          store_key: /opt/oxn/experiments/package-loss-20-short.yml/b8532710/cpu_usage
+        interaction_36:
+          treatment_name: add_security_context
+          treatment_start: 2024-12-02 20:39:31.335390
+          treatment_end: 2024-12-02 20:41:31.829310
+          treatment_type: KubernetesApplySecurityContextTreatment
+          response_name: tcp_connections
+          response_start: 2024-12-02 20:39:21.509341
+          response_end: 2024-12-02 20:41:41.829318
+          response_type: MetricResponseVariable
+          p_value: '0.3298768009211185'
+          test_statistic: '-1.0000000000000142'
+          test_performed: welch t-test
+          store_key: /opt/oxn/experiments/package-loss-20-short.yml/b8532710/tcp_connections
+        interaction_37:
+          treatment_name: package_lost_treatment
+          treatment_start: 2024-12-02 20:39:31.522230
+          treatment_end: 2024-12-02 20:41:31.829162
+          treatment_type: KubernetesNetworkPacketLossTreatment
+          response_name: tcp_connections
+          response_start: 2024-12-02 20:39:21.509341
+          response_end: 2024-12-02 20:41:41.829318
+          response_type: MetricResponseVariable
+          p_value: '0.32925657717171053'
+          test_statistic: '-0.9999999999999967'
+          test_performed: welch t-test
+          store_key: /opt/oxn/experiments/package-loss-20-short.yml/b8532710/tcp_connections
+      loadgen:
+        loadgen_start_time: 2024-12-02 20:39:31.509655
+        loadgen_end_time: 2024-12-02 20:41:42.750674
+        loadgen_total_requests: 18605
+        loadgen_total_failures: 81
+        task_details:
+          0701180f41b046ae:
+            url: /
+            verb: GET
+            requests: 1124
+            failures: 57
+            fail_ratio: 0.050711743772241996
+            sum_response_time: 3298153.3027389715
+            min_response_time: 15.118398005142808
+            max_response_time: 15094.013734997134
+            avg_response_time: 2934.300091404779
+            median_response_time: 760.0
+          0bd3a2754dca40df:
+            url: /api/products/1YMWWN1N4O
+            verb: GET
+            requests: 876
+            failures: 0
+            fail_ratio: 0.0
+            sum_response_time: 135295.23022306967
+            min_response_time: 6.072372001654003
+            max_response_time: 12780.103139994026
+            avg_response_time: 154.44660984368684
+            median_response_time: 36
+          48b9eec7c0b941d7:
+            url: /api/data/?contextKeys=assembly
+            verb: GET
+            requests: 211
+            failures: 0
+            fail_ratio: 0.0
+            sum_response_time: 47754.17122599174
+            min_response_time: 17.02641999872867
+            max_response_time: 10910.643277995405
+            avg_response_time: 226.32308637910776
+            median_response_time: 84
+          82a796ee174e4c24:
+            url: /api/data/
+            verb: GET
+            requests: 225
+            failures: 0
+            fail_ratio: 0.0
+            sum_response_time: 39455.93342405482
+            min_response_time: 17.445874997065403
+            max_response_time: 4389.691504999064
+            avg_response_time: 175.3597041069103
+            median_response_time: 78
+          0b86f43abdfb4ec8:
+            url: /api/recommendations?productIds=L9ECAV7KIM
+            verb: GET
+            requests: 163
+            failures: 0
+            fail_ratio: 0.0
+            sum_response_time: 78018.3246289671
+            min_response_time: 20.503542997175828
+            max_response_time: 1943.5561020000023
+            avg_response_time: 478.64002839857113
+            median_response_time: 310.0
+          dfb30c3116ce4cca:
+            url: /api/products/2ZYFJ3GM2N
+            verb: GET
+            requests: 896
+            failures: 3
+            fail_ratio: 0.0033482142857142855
+            sum_response_time: 163778.67010211048
+            min_response_time: 6.7351880061323754
+            max_response_time: 15011.914259994228
+            avg_response_time: 182.78869431039115
+            median_response_time: 37
+          82d65f0606894280:
+            url: /api/products/HQTGWGPNH4
+            verb: GET
+            requests: 857
+            failures: 3
+            fail_ratio: 0.003500583430571762
+            sum_response_time: 159917.79296113964
+            min_response_time: 6.09926600009203
+            max_response_time: 15016.250934997515
+            avg_response_time: 186.60185876445698
+            median_response_time: 39
+          1ce6c83b6e4944a6:
+            url: /api/cart
+            verb: POST
+            requests: 3194
+            failures: 1
+            fail_ratio: 0.00031308703819661864
+            sum_response_time: 463309.1020338543
+            min_response_time: 10.465302999364212
+            max_response_time: 15016.216602001805
+            avg_response_time: 145.05607452531444
+            median_response_time: 57
+          3241dc3710b3408e:
+            url: /api/cart
+            verb: GET
+            requests: 1585
+            failures: 2
+            fail_ratio: 0.0012618296529968455
+            sum_response_time: 285758.8848780142
+            min_response_time: 6.714618000842165
+            max_response_time: 15036.620453996875
+            avg_response_time: 180.2895172731951
+            median_response_time: 51
+          4b03282f9099458c:
+            url: /api/products/OLJCESPC7Z
+            verb: GET
+            requests: 863
+            failures: 1
+            fail_ratio: 0.0011587485515643105
+            sum_response_time: 161924.1724469175
+            min_response_time: 6.554706000315491
+            max_response_time: 15032.853252996574
+            avg_response_time: 187.6294002861153
+            median_response_time: 41
+          01142a1cb5484a8a:
+            url: /api/products/9SIQT8TOJO
+            verb: GET
+            requests: 878
+            failures: 0
+            fail_ratio: 0.0
+            sum_response_time: 96060.71872400935
+            min_response_time: 6.083166997996159
+            max_response_time: 11058.56838299951
+            avg_response_time: 109.40856346698104
+            median_response_time: 36
+          2b8f82fe6a7b4a29:
+            url: /api/products/6E92ZMYYFZ
+            verb: GET
+            requests: 846
+            failures: 1
+            fail_ratio: 0.001182033096926714
+            sum_response_time: 130569.00478307944
+            min_response_time: 6.273272003454622
+            max_response_time: 15009.537694000755
+            avg_response_time: 154.33688508638232
+            median_response_time: 37
+          55405e3ce3e34c61:
+            url: /api/checkout
+            verb: POST
+            requests: 1077
+            failures: 0
+            fail_ratio: 0.0
+            sum_response_time: 265188.8368400105
+            min_response_time: 40.729717002250254
+            max_response_time: 11114.758194999013
+            avg_response_time: 246.2291892664907
+            median_response_time: 130.0
+          09ce3bbc2a264108:
+            url: /api/products/66VCHSJNUP
+            verb: GET
+            requests: 837
+            failures: 4
+            fail_ratio: 0.0047789725209080045
+            sum_response_time: 173511.0412761278
+            min_response_time: 5.946970006334595
+            max_response_time: 15007.963231000758
+            avg_response_time: 207.30112458318735
+            median_response_time: 36
+          a3d191d2e50f489b:
+            url: /api/data/?contextKeys=travel
+            verb: GET
+            requests: 209
+            failures: 0
+            fail_ratio: 0.0
+            sum_response_time: 57915.94914501184
+            min_response_time: 16.436140998848714
+            max_response_time: 11502.968596003484
+            avg_response_time: 277.10980452158776
+            median_response_time: 73
+          2ea2873c6fe54f9e:
+            url: /api/recommendations?productIds=66VCHSJNUP
+            verb: GET
+            requests: 164
+            failures: 0
+            fail_ratio: 0.0
+            sum_response_time: 95495.54735897982
+            min_response_time: 20.868382998742163
+            max_response_time: 13086.916755004495
+            avg_response_time: 582.2899229206087
+            median_response_time: 370.0
+          8f444de51eec4a45:
+            url: /api/recommendations?productIds=2ZYFJ3GM2N
+            verb: GET
+            requests: 153
+            failures: 1
+            fail_ratio: 0.006535947712418301
+            sum_response_time: 88779.93058197171
+            min_response_time: 19.132941000862047
+            max_response_time: 15017.326746994513
+            avg_response_time: 580.2609841958936
+            median_response_time: 360.0
+          2b05ef99778a4851:
+            url: /api/products/LS4PSXUNUM
+            verb: GET
+            requests: 846
+            failures: 0
+            fail_ratio: 0.0
+            sum_response_time: 97668.09656198893
+            min_response_time: 6.270361001952551
+            max_response_time: 11709.682223001437
+            avg_response_time: 115.44692265010512
+            median_response_time: 39
+          6a6214b33b3641c5:
+            url: /api/products/0PUK6V6EV0
+            verb: GET
+            requests: 861
+            failures: 2
+            fail_ratio: 0.0023228803716608595
+            sum_response_time: 173719.27141508058
+            min_response_time: 6.235625995032024
+            max_response_time: 15016.890867998882
+            avg_response_time: 201.76454287465805
+            median_response_time: 41
+          3b9b8aff0d61461a:
+            url: /api/products/L9ECAV7KIM
+            verb: GET
+            requests: 807
+            failures: 0
+            fail_ratio: 0.0
+            sum_response_time: 86468.63475898863
+            min_response_time: 6.050108000636101
+            max_response_time: 11379.524333999143
+            avg_response_time: 107.1482462936662
+            median_response_time: 39
+          c228ecfae20247a0:
+            url: /api/recommendations?productIds=1YMWWN1N4O
+            verb: GET
+            requests: 142
+            failures: 0
+            fail_ratio: 0.0
+            sum_response_time: 66744.95835002745
+            min_response_time: 22.37141099612927
+            max_response_time: 2558.130072997301
+            avg_response_time: 470.03491795793974
+            median_response_time: 300.0
+          1f065633fc6d4459:
+            url: /api/recommendations?productIds=6E92ZMYYFZ
+            verb: GET
+            requests: 158
+            failures: 1
+            fail_ratio: 0.006329113924050633
+            sum_response_time: 95400.62351702363
+            min_response_time: 19.388646993320435
+            max_response_time: 15015.837455997826
+            avg_response_time: 603.8014146647065
+            median_response_time: 320.0
+          f552665304274fd1:
+            url: /api/recommendations?productIds=9SIQT8TOJO
+            verb: GET
+            requests: 166
+            failures: 0
+            fail_ratio: 0.0
+            sum_response_time: 73592.97521795816
+            min_response_time: 19.655363998026587
+            max_response_time: 2036.5608620049898
+            avg_response_time: 443.3311760117961
+            median_response_time: 300.0
+          d7be3e5d3e5748a8:
+            url: /api/recommendations?productIds=OLJCESPC7Z
+            verb: GET
+            requests: 155
+            failures: 1
+            fail_ratio: 0.0064516129032258064
+            sum_response_time: 88151.33421401697
+            min_response_time: 24.328892002813518
+            max_response_time: 15004.736779999803
+            avg_response_time: 568.7182852517224
+            median_response_time: 330.0
+          0d12db756d994bc9:
+            url: /api/data/?contextKeys=accessories
+            verb: GET
+            requests: 222
+            failures: 1
+            fail_ratio: 0.0045045045045045045
+            sum_response_time: 65295.34603204229
+            min_response_time: 16.79688700096449
+            max_response_time: 15004.750740001327
+            avg_response_time: 294.1231803245148
+            median_response_time: 65
+          a16157d729c24241:
+            url: /api/data/?contextKeys=binoculars
+            verb: GET
+            requests: 221
+            failures: 1
+            fail_ratio: 0.004524886877828055
+            sum_response_time: 76140.19217002351
+            min_response_time: 16.355220002878923
+            max_response_time: 15058.274909999454
+            avg_response_time: 344.52575642544576
+            median_response_time: 82
+          ee7f3ecad0674bc5:
+            url: /api/data/?contextKeys=books
+            verb: GET
+            requests: 209
+            failures: 0
+            fail_ratio: 0.0
+            sum_response_time: 59273.02671302459
+            min_response_time: 15.429430997755844
+            max_response_time: 12866.492933004338
+            avg_response_time: 283.6029986269119
+            median_response_time: 93
+          b61e065f449e4c86:
+            url: /api/data/?contextKeys=telescopes
+            verb: GET
+            requests: 212
+            failures: 1
+            fail_ratio: 0.0047169811320754715
+            sum_response_time: 67395.52351999009
+            min_response_time: 17.40734600025462
+            max_response_time: 15642.570234995219
+            avg_response_time: 317.903412830142
+            median_response_time: 82
+          201b5235ada94307:
+            url: /api/recommendations?productIds=HQTGWGPNH4
+            verb: GET
+            requests: 144
+            failures: 0
+            fail_ratio: 0.0
+            sum_response_time: 61612.9818529007
+            min_response_time: 22.242378996452317
+            max_response_time: 2003.8041989973863
+            avg_response_time: 427.86792953403267
+            median_response_time: 280.0
+          00d06a6e869c48c3:
+            url: /api/recommendations?productIds=0PUK6V6EV0
+            verb: GET
+            requests: 154
+            failures: 1
+            fail_ratio: 0.006493506493506494
+            sum_response_time: 90546.42674700153
+            min_response_time: 20.633544998418074
+            max_response_time: 15008.109733003948
+            avg_response_time: 587.9638100454645
+            median_response_time: 370.0
+          7feced697e274e28:
+            url: /api/recommendations?productIds=LS4PSXUNUM
+            verb: GET
+            requests: 150
+            failures: 0
+            fail_ratio: 0.0
+            sum_response_time: 73055.50514197239
+            min_response_time: 19.62237300176639
+            max_response_time: 2194.089703996724
+            avg_response_time: 487.0367009464826
+            median_response_time: 320.0

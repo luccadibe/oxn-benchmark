@@ -1,0 +1,105 @@
+timestamp,fault_name,fault_type,fault_duration,fault_params,detected,detection_latency,first_alert,all_alerts,alert_count,latency_threshold,evaluation_window,run_time,timeout
+20241202-150813,add_security_context,kubernetes_loss,,"{""loss_percentage"": 15.0}",True,1.054658,CriticalServiceRPCLatencySpike,,68,100,10s,,5m
+20241202-150813,package_lost_treatment,kubernetes_loss,,"{""loss_percentage"": 15.0}",True,0.899286,CriticalServiceRPCLatencySpike,,68,100,10s,,5m
+20241202-150813,add_security_context,kubernetes_loss,,"{""loss_percentage"": 15.0}",True,60.166381,CriticalServiceRPCLatencySpike,,56,100,20s,,5m
+20241202-150813,package_lost_treatment,kubernetes_loss,,"{""loss_percentage"": 15.0}",True,60.014823,CriticalServiceRPCLatencySpike,,56,100,20s,,5m
+20241202-150813,add_security_context,kubernetes_loss,,"{""loss_percentage"": 15.0}",True,0.223441,KubernetesContainerOomKiller,,72,100,30s,,5m
+20241202-150813,package_lost_treatment,kubernetes_loss,,"{""loss_percentage"": 15.0}",True,0.032271,KubernetesContainerOomKiller,,72,100,30s,,5m
+20241202-150813,add_security_context,kubernetes_loss,,"{""loss_percentage"": 15.0}",True,225.211631,KubernetesContainerOomKiller,,19,100,40s,,5m
+20241202-150813,package_lost_treatment,kubernetes_loss,,"{""loss_percentage"": 15.0}",True,225.047936,KubernetesContainerOomKiller,,19,100,40s,,5m
+20241202-150813,add_security_context,kubernetes_loss,,"{""loss_percentage"": 15.0}",True,0.389796,CriticalServiceRPCLatencySpike,,97,200,10s,,5m
+20241202-150813,package_lost_treatment,kubernetes_loss,,"{""loss_percentage"": 15.0}",True,0.233469,CriticalServiceRPCLatencySpike,,97,200,10s,,5m
+20241202-150813,add_security_context,kubernetes_loss,,"{""loss_percentage"": 15.0}",True,0.541131,CriticalServiceRPCLatencySpike,,62,200,20s,,5m
+20241202-150813,package_lost_treatment,kubernetes_loss,,"{""loss_percentage"": 15.0}",True,0.387005,CriticalServiceRPCLatencySpike,,62,200,20s,,5m
+20241202-150813,add_security_context,kubernetes_loss,,"{""loss_percentage"": 15.0}",True,90.407275,KubernetesContainerOomKiller,,56,200,30s,,5m
+20241202-150813,package_lost_treatment,kubernetes_loss,,"{""loss_percentage"": 15.0}",True,90.238254,KubernetesContainerOomKiller,,56,200,30s,,5m
+20241202-150813,add_security_context,kubernetes_loss,,"{""loss_percentage"": 15.0}",True,0.760507,KubernetesContainerOomKiller,,64,200,40s,,5m
+20241202-150813,package_lost_treatment,kubernetes_loss,,"{""loss_percentage"": 15.0}",True,0.605366,KubernetesContainerOomKiller,,64,200,40s,,5m
+20241202-150813,add_security_context,kubernetes_loss,,"{""loss_percentage"": 15.0}",True,75.818384,CriticalServiceRPCLatencySpike,,47,300,10s,,5m
+20241202-150813,package_lost_treatment,kubernetes_loss,,"{""loss_percentage"": 15.0}",True,75.618214,CriticalServiceRPCLatencySpike,,47,300,10s,,5m
+20241202-150813,add_security_context,kubernetes_loss,,"{""loss_percentage"": 15.0}",True,0.409046,ImmediateHighHTTPLatency,,81,300,20s,,5m
+20241202-150813,package_lost_treatment,kubernetes_loss,,"{""loss_percentage"": 15.0}",True,0.236393,ImmediateHighHTTPLatency,,81,300,20s,,5m
+20241202-150813,add_security_context,kubernetes_loss,,"{""loss_percentage"": 15.0}",True,210.654652,KubernetesContainerOomKiller,,24,300,30s,,5m
+20241202-150813,package_lost_treatment,kubernetes_loss,,"{""loss_percentage"": 15.0}",True,210.4851,KubernetesContainerOomKiller,,24,300,30s,,5m
+20241202-150813,add_security_context,kubernetes_loss,,"{""loss_percentage"": 15.0}",True,1.047196,KubernetesContainerOomKiller,,80,300,40s,,5m
+20241202-150813,package_lost_treatment,kubernetes_loss,,"{""loss_percentage"": 15.0}",True,0.883079,KubernetesContainerOomKiller,,80,300,40s,,5m
+20241202-150813,add_security_context,kubernetes_loss,,"{""loss_percentage"": 15.0}",True,45.943592,CriticalServiceRPCLatencySpike,,4,400,10s,,5m
+20241202-150813,package_lost_treatment,kubernetes_loss,,"{""loss_percentage"": 15.0}",True,45.782247,CriticalServiceRPCLatencySpike,,4,400,10s,,5m
+20241202-150813,add_security_context,kubernetes_loss,,"{""loss_percentage"": 15.0}",True,76.043178,CriticalServiceRPCLatencySpike,,62,400,20s,,5m
+20241202-150813,package_lost_treatment,kubernetes_loss,,"{""loss_percentage"": 15.0}",True,75.892734,CriticalServiceRPCLatencySpike,,62,400,20s,,5m
+20241202-150813,add_security_context,kubernetes_loss,,"{""loss_percentage"": 15.0}",True,1.337775,KubernetesContainerOomKiller,,57,400,30s,,5m
+20241202-150813,package_lost_treatment,kubernetes_loss,,"{""loss_percentage"": 15.0}",True,1.17164,KubernetesContainerOomKiller,,57,400,30s,,5m
+20241202-150813,add_security_context,kubernetes_loss,,"{""loss_percentage"": 15.0}",True,61.218914,KubernetesContainerOomKiller,,64,400,40s,,5m
+20241202-150813,package_lost_treatment,kubernetes_loss,,"{""loss_percentage"": 15.0}",True,61.050574,KubernetesContainerOomKiller,,64,400,40s,,5m
+20241202-150813,add_security_context,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,1.089936,CriticalServiceRPCLatencySpike,,84,100,10s,,5m
+20241202-150813,package_lost_treatment,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,0.927475,CriticalServiceRPCLatencySpike,,84,100,10s,,5m
+20241202-150813,add_security_context,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,31.126768,CriticalServiceRPCLatencySpike,,56,100,20s,,5m
+20241202-150813,package_lost_treatment,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,30.973901,CriticalServiceRPCLatencySpike,,56,100,20s,,5m
+20241202-150813,add_security_context,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,1.308301,KubernetesContainerOomKiller,,72,100,30s,,5m
+20241202-150813,package_lost_treatment,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,1.150457,KubernetesContainerOomKiller,,72,100,30s,,5m
+20241202-150813,add_security_context,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,121.328931,KubernetesContainerOomKiller,,48,100,40s,,5m
+20241202-150813,package_lost_treatment,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,121.162603,KubernetesContainerOomKiller,,48,100,40s,,5m
+20241202-150813,add_security_context,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,1.221026,CriticalServiceRPCLatencySpike,,86,200,10s,,5m
+20241202-150813,package_lost_treatment,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,1.056517,CriticalServiceRPCLatencySpike,,86,200,10s,,5m
+20241202-150813,add_security_context,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,61.362962,CriticalServiceRPCLatencySpike,,36,200,20s,,5m
+20241202-150813,package_lost_treatment,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,61.194267,CriticalServiceRPCLatencySpike,,36,200,20s,,5m
+20241202-150813,add_security_context,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,1.511442,KubernetesContainerOomKiller,,80,200,30s,,5m
+20241202-150813,package_lost_treatment,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,1.356344,KubernetesContainerOomKiller,,80,200,30s,,5m
+20241202-150813,add_security_context,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,211.050185,KubernetesContainerOomKiller,,24,200,40s,,5m
+20241202-150813,package_lost_treatment,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,210.888257,KubernetesContainerOomKiller,,24,200,40s,,5m
+20241202-150813,add_security_context,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,1.214182,CriticalServiceRPCLatencySpike,,94,300,10s,,5m
+20241202-150813,package_lost_treatment,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,1.066977,CriticalServiceRPCLatencySpike,,94,300,10s,,5m
+20241202-150813,add_security_context,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,92.210699,ImmediateHighHTTPLatency,,5,300,20s,,5m
+20241202-150813,package_lost_treatment,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,92.051827,ImmediateHighHTTPLatency,,5,300,20s,,5m
+20241202-150813,add_security_context,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,16.831399,KubernetesContainerOomKiller,,74,300,30s,,5m
+20241202-150813,package_lost_treatment,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,16.674759,KubernetesContainerOomKiller,,74,300,30s,,5m
+20241202-150813,add_security_context,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,1.745386,KubernetesContainerOomKiller,,44,300,40s,,5m
+20241202-150813,package_lost_treatment,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,1.58795,KubernetesContainerOomKiller,,44,300,40s,,5m
+20241202-150813,add_security_context,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,76.870305,CriticalServiceRPCLatencySpike,,63,400,10s,,5m
+20241202-150813,package_lost_treatment,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,76.694986,CriticalServiceRPCLatencySpike,,63,400,10s,,5m
+20241202-150813,add_security_context,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,1.685255,CriticalServiceRPCLatencySpike,,76,400,20s,,5m
+20241202-150813,package_lost_treatment,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,1.533016,CriticalServiceRPCLatencySpike,,76,400,20s,,5m
+20241202-150813,add_security_context,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,181.9298,KubernetesContainerOomKiller,,32,400,30s,,5m
+20241202-150813,package_lost_treatment,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,181.770902,KubernetesContainerOomKiller,,32,400,30s,,5m
+20241202-150813,add_security_context,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,1.806979,KubernetesContainerOomKiller,,80,400,40s,,5m
+20241202-150813,package_lost_treatment,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,1.622674,KubernetesContainerOomKiller,,80,400,40s,,5m
+20241202-150813,add_security_context,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,31.671768,CriticalServiceRPCLatencySpike,,16,100,10s,,5m
+20241202-150813,package_lost_treatment,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,31.508081,CriticalServiceRPCLatencySpike,,16,100,10s,,5m
+20241202-150813,add_security_context,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,31.707729,CriticalServiceRPCLatencySpike,,24,100,20s,,5m
+20241202-150813,package_lost_treatment,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,31.542927,CriticalServiceRPCLatencySpike,,24,100,20s,,5m
+20241202-150813,add_security_context,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,1.67496,KubernetesContainerOomKiller,,48,100,30s,,5m
+20241202-150813,package_lost_treatment,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,1.516836,KubernetesContainerOomKiller,,48,100,30s,,5m
+20241202-150813,add_security_context,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,1.762135,KubernetesContainerOomKiller,,16,100,40s,,5m
+20241202-150813,package_lost_treatment,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,1.609404,KubernetesContainerOomKiller,,16,100,40s,,5m
+20241202-150813,add_security_context,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,61.987447,CriticalServiceRPCLatencySpike,,6,200,10s,,5m
+20241202-150813,package_lost_treatment,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,61.831476,CriticalServiceRPCLatencySpike,,6,200,10s,,5m
+20241202-150813,add_security_context,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,121.913883,KubernetesContainerOomKiller,,16,200,30s,,5m
+20241202-150813,package_lost_treatment,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,121.746593,KubernetesContainerOomKiller,,16,200,30s,,5m
+20241202-150813,add_security_context,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,1.974156,KubernetesContainerOomKiller,,48,200,40s,,5m
+20241202-150813,package_lost_treatment,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,1.822237,KubernetesContainerOomKiller,,48,200,40s,,5m
+20241202-150813,add_security_context,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,3.434122,CriticalServiceRPCLatencySpike,,24,300,10s,,5m
+20241202-150813,package_lost_treatment,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,3.272396,CriticalServiceRPCLatencySpike,,24,300,10s,,5m
+20241202-150813,add_security_context,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,47.066231,ImmediateHighHTTPLatency,,4,300,20s,,5m
+20241202-150813,package_lost_treatment,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,46.893754,ImmediateHighHTTPLatency,,4,300,20s,,5m
+20241202-150813,add_security_context,kubernetes_loss,,"{""loss_percentage"": 20.0}",False,,,,0,300,30s,,5m
+20241202-150813,package_lost_treatment,kubernetes_loss,,"{""loss_percentage"": 20.0}",False,,,,0,300,30s,,5m
+20241202-150813,add_security_context,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,92.307162,KubernetesContainerOomKiller,,24,300,40s,,5m
+20241202-150813,package_lost_treatment,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,92.114959,KubernetesContainerOomKiller,,24,300,40s,,5m
+20241202-150813,add_security_context,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,2.273298,ImmediateHighHTTPLatency,,50,400,10s,,5m
+20241202-150813,package_lost_treatment,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,2.08649,ImmediateHighHTTPLatency,,50,400,10s,,5m
+20241202-150813,add_security_context,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,2.348877,ImmediateHighHTTPLatency,,6,400,20s,,5m
+20241202-150813,package_lost_treatment,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,2.191817,ImmediateHighHTTPLatency,,6,400,20s,,5m
+20241202-150813,add_security_context,kubernetes_loss,,"{""loss_percentage"": 20.0}",False,,,,0,400,30s,,5m
+20241202-150813,package_lost_treatment,kubernetes_loss,,"{""loss_percentage"": 20.0}",False,,,,0,400,30s,,5m
+20241202-150813,add_security_context,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,122.57661,KubernetesContainerOomKiller,,16,400,40s,,5m
+20241202-150813,package_lost_treatment,kubernetes_loss,,"{""loss_percentage"": 20.0}",True,122.38977,KubernetesContainerOomKiller,,16,400,40s,,5m
+20241202-150813,add_security_context,delay,,"{""delay_time"": ""120ms"", ""delay_jitter"": ""120ms""}",True,2.185398,CriticalServiceRPCLatencySpike,,56,100,10s,,5m
+20241202-150813,delay_treatment,delay,,"{""delay_time"": ""120ms"", ""delay_jitter"": ""120ms""}",True,2.030428,CriticalServiceRPCLatencySpike,,56,100,10s,,5m
+20241202-150813,add_security_context,delay,,"{""delay_time"": ""120ms"", ""delay_jitter"": ""120ms""}",True,2.458832,CriticalServiceRPCLatencySpike,,20,100,20s,,5m
+20241202-150813,delay_treatment,delay,,"{""delay_time"": ""120ms"", ""delay_jitter"": ""120ms""}",True,2.275202,CriticalServiceRPCLatencySpike,,20,100,20s,,5m
+20241202-150813,add_security_context,delay,,"{""delay_time"": ""120ms"", ""delay_jitter"": ""120ms""}",False,,,,0,100,30s,,5m
+20241202-150813,delay_treatment,delay,,"{""delay_time"": ""120ms"", ""delay_jitter"": ""120ms""}",False,,,,0,100,30s,,5m
+20241202-150813,add_security_context,delay,,"{""delay_time"": ""120ms"", ""delay_jitter"": ""120ms""}",False,,,,0,100,40s,,5m
+20241202-150813,delay_treatment,delay,,"{""delay_time"": ""120ms"", ""delay_jitter"": ""120ms""}",False,,,,0,100,40s,,5m
+20241202-150813,add_security_context,delay,,"{""delay_time"": ""120ms"", ""delay_jitter"": ""120ms""}",True,32.388656,CriticalServiceRPCLatencySpike,,51,200,10s,,5m
+20241202-150813,delay_treatment,delay,,"{""delay_time"": ""120ms"", ""delay_jitter"": ""120ms""}",True,32.219686,CriticalServiceRPCLatencySpike,,51,200,10s,,5m
