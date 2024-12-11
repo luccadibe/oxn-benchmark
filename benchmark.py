@@ -195,7 +195,11 @@ class FaultDetectionBenchmark:
             # Skip if we've already processed this treatment
             if treatment_name in seen_treatments:
                 continue
-            
+
+            ############### IGNORE add_security_context ################
+            if treatment_name == "add_security_context":
+                continue
+            ###################################################################
             seen_treatments.add(treatment_name)
             
             # Get timestamps - (datetime objects)
